@@ -1,0 +1,4 @@
+JSON WEB TOKEN -JWT
+...........................
+- install using the command mpm i jsonwebtoken
+- library used for authentication in client server request.
