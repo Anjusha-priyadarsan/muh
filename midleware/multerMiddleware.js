@@ -3,7 +3,7 @@ const multer = require("multer")
 const storage = multer.diskStorage({
     destination: (req, file, callback) => {
 
-        callback(null, './Uploads')
+        callback(null, './uploads')
 
     },
     // or destination:'./uploads'......engane kodthalum mathi
