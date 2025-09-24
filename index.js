@@ -20,7 +20,7 @@ pfServer.use(express.json())
 pfServer.use(router)
 
 // heme 3 project view image display cheyyan
-pfServer.use("/uploads",express.static("./uploads"))
+pfServer.use("/uploads",express.static("./Uploads"))
 
 // create port for server
 const PORT=process.env.PORT || 3000
